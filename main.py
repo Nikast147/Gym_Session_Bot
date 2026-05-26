@@ -7,7 +7,8 @@ import re
 # ============================
 # НАЛАШТУВАННЯ
 # ============================
-bot = telebot.TeleBot('8976382648:AAGb9XkNnGv8SYKebHFPFlVV2r0z_8jdiz4')
+TOKEN = '8976382648:AAGb9XkNnGv8SYKebHFPFlVV2r0z_8jdiz4'
+bot = telebot.TeleBot(TOKEN)
 
 # Стан користувача (для FSM)
 user_states = {}

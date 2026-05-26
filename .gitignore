@@ -1,0 +1,5 @@
+gym_bot.db
+.env
+venv/
+__pycache__/
+*.pyc
